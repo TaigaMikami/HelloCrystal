@@ -1,12 +1,28 @@
 version: 1.0
 shards:
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.5.0
+
   kemal:
     github: kemalcr/kemal
     version: 0.22.0
 
+  kemal-pg:
+    github: sdogruyol/kemal-pg
+    commit: 2b13249a5fd92f8806ec1dc1d037b9622709d4c2
+
   kilt:
     github: jeromegn/kilt
     version: 0.4.0
+
+  pg:
+    github: will/crystal-pg
+    commit: 7d183bbae1206815d1822b16a2bc1e28c5b03e3d
+
+  pool:
+    github: ysbaddaden/pool
+    commit: c4ecfad1b87fbd8c6484d1fd536ccfd14c40cc94
 
   radix:
     github: luislavena/radix
