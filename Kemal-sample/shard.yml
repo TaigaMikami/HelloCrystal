@@ -1,0 +1,17 @@
+name: Kemal-sample
+version: 0.1.0
+
+authors:
+  - TaigaMikami <mikamimikami60@gmail.com>
+
+targets:
+  Kemal-sample:
+    main: src/Kemal-sample.cr
+
+crystal: 0.24.2
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
