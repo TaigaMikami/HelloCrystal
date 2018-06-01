@@ -10,7 +10,7 @@ require "kemal"
       {"id" => 3, "title" => "title3", "body" => "body3"},
     ]
 
-    render "src/views/index.ecr"
+    render "src/views/index.ecr", "src/views/application.ecr"
   end
 end
 

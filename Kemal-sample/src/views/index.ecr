@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>post item</title>
-</head>
-<body>
+<h2>Article List</h2>
+<table class="table table-striped">
+<thead>
+<tr>
+    <td>title</td>
+</tr>
+<tbody>
 <% articles.each do |article| %>
-<table>
-    <tr>
-        <td><%=article["title"] %></td>
-    </tr>
-    <tr>
-        <td><%=article["body"] %></td>
-    </tr>
-</table>
+<tr>
+    <td><a href="/articles/<%=article["id"] %>" target="_top"><%=article["title"] %></a></td>
+</tr>
 <% end %>
-</body>
-</html>
+</tbody>
+</table>
