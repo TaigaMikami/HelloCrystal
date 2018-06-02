@@ -6,7 +6,7 @@ authors:
 
 targets:
   Kemal-sample:
-    main: src/Kemal-sample.cr
+    main: src/kemal-sample.cr
 
 crystal: 0.24.2
 

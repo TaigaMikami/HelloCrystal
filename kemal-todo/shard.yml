@@ -1,0 +1,22 @@
+name: kemal-todo
+version: 0.1.0
+
+authors:
+  - TaigaMikami <mikamimikami60@gmail.com>
+
+targets:
+  kemal-todo:
+    main: src/kemal-todo.cr
+
+crystal: 0.24.2
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+  kemal-pg:
+    github: sdogruyol/kemal-pg
+    branch: master
+
+
+license: MIT
