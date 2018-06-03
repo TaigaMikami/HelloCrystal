@@ -48,3 +48,24 @@ $ brew intsall openssl
 ```
 export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
 ```
+
+## Amber
+CrystalのWebフレームワーク。
+オブジェクト指向のパラダイムを利用してMVCパターンを実装する。
+Phoenix、Ruby on Rails、Djangoに影響を受けている。
+
+### Quick Start
+```
+$ brew install amber
+```
+
+```
+amber new pet-tracker
+cd pet-tracker
+shards install
+amber generate scaffold Pet name:string breed:string age:integer
+amber db create migrate
+amber watch
+```
+
+http://0.0.0.0:300にアクセス
